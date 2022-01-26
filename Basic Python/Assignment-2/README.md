@@ -6,7 +6,7 @@
 3. If yes, merge/concat all the pdf and create a new pdf
 4. Else, do nothing
 
-## restrictions
+## Restrictions
 * use logging
 * use exception handling
 * use modular coding
