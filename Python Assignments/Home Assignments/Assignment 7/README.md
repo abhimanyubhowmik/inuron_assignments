@@ -86,9 +86,9 @@ power_ranger(5, 31, 33) ➞ 1
 
 power_ranger(4, 250, 1300) ➞ 3
 
-5. Given a number, return the difference between the maximum and minimum numbers that can be formed when the digits are rearranged.
+### 5. Given a number, return the difference between the maximum and minimum numbers that can be formed when the digits are rearranged.
 
-Examples
+#### Examples
 
 rearranged_difference(972882) ➞ 760833
 
