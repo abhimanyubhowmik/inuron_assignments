@@ -1,0 +1,47 @@
+2022-02-25 13:43:31,443 INFO Database(MongoClient(host=['abhibhowmik-shard-00-02.e258o.mongodb.net:27017', 'abhibhowmik-shard-00-01.e258o.mongodb.net:27017', 'abhibhowmik-shard-00-00.e258o.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-kcgeii-shard-0', tls=True), 'test')
+2022-02-25 23:36:43,734 INFO Database :CarbonNanotube is created.
+2022-02-25 23:37:53,185 INFO Collection :CN_Data is created.
+2022-02-25 23:39:18,078 INFO Collection :CN_Data is created.
+2022-02-25 23:40:29,869 INFO Data from CSV: carbon_nanotubes.csv inserted into Collection(Database(MongoClient(host=['abhibhowmik-shard-00-02.e258o.mongodb.net:27017', 'abhibhowmik-shard-00-01.e258o.mongodb.net:27017', 'abhibhowmik-shard-00-00.e258o.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-kcgeii-shard-0', tls=True), 'CarbonNanotube'), 'CN_Data')
+2022-02-25 23:47:18,302 ERROR documents must be a non-empty list
+2022-02-25 23:51:59,060 INFO Connection to MongoDB Client: bhowmik_abhimanyu is Started.
+2022-02-25 23:52:24,831 INFO Database :CarbonNanotube is created.
+2022-02-25 23:52:27,009 INFO Collection :CN_Data is created.
+2022-02-25 23:53:07,855 INFO Found Document/Documents at: [].
+2022-02-25 23:59:36,603 INFO Database :CarbonNanotube is created.
+2022-02-25 23:59:39,758 INFO Collection :CN_Data is created.
+2022-02-25 23:59:54,659 ERROR documents must be a non-empty list
+2022-02-26 00:01:49,635 INFO Database :CarbonNanotube is created.
+2022-02-26 00:01:51,152 INFO Collection :CN_Data is created.
+2022-02-26 00:01:56,609 ERROR documents must be a non-empty list
+2022-02-26 00:04:10,244 INFO Database :CarbonNanotube is created.
+2022-02-26 00:04:12,275 INFO Collection :CN_Data is created.
+2022-02-26 00:04:18,154 ERROR documents must be a non-empty list
+2022-02-26 00:06:35,499 ERROR documents must be a non-empty list
+2022-02-26 00:07:27,188 INFO Connection to MongoDB Client: bhowmik_abhimanyu is Started.
+2022-02-26 00:07:39,879 INFO Database :CarbonNanotube is created.
+2022-02-26 00:07:44,283 INFO Collection :CN_Data is created.
+2022-02-26 00:08:02,469 INFO <class 'dict'>
+2022-02-26 00:08:02,514 INFO One Document inserted into CN_Data
+2022-02-26 00:08:11,821 INFO Found Document/Documents at: [ObjectId('6219220a2d1fa2a0c577a79c')].
+2022-02-26 00:12:40,742 ERROR cannot encode object: {'Abhi', 'admin'}, of type: <class 'set'>
+2022-02-26 00:13:50,962 ERROR cannot encode object: {'Abhi', 'admin'}, of type: <class 'set'>
+2022-02-26 00:14:30,282 INFO Connection to MongoDB Client: bhowmik_abhimanyu is Started.
+2022-02-26 00:14:36,909 INFO Database :CarbonNanotube is created.
+2022-02-26 00:14:38,361 INFO Collection :CN_Data is created.
+2022-02-26 00:14:50,834 INFO Updatetion of document Completed at: [ObjectId('6219220a2d1fa2a0c577a79c')].
+2022-02-26 00:16:27,370 INFO Found Document/Documents at: [ObjectId('6219220a2d1fa2a0c577a79c')].
+2022-02-26 00:16:40,634 INFO Found Document/Documents at: [ObjectId('6219220a2d1fa2a0c577a79c')].
+2022-02-26 00:18:12,613 INFO Found all Documents of Collection: CN_Data
+2022-02-26 00:22:58,338 INFO Found all Documents of Collection: CN_Data
+2022-02-26 00:23:23,181 INFO Found all Documents of Collection: CN_Data
+2022-02-26 00:23:47,433 INFO Found all Documents of Collection: CN_Data
+2022-02-26 00:29:35,287 INFO Found Document/Documents at: [].
+2022-02-26 00:30:24,319 INFO Found Document/Documents at: [ObjectId('62191b94a5aaa226d46ca2c1'), ObjectId('62191b94a5aaa226d46ca2c2'), ObjectId('62191b94a5aaa226d46ca2c3'), ObjectId('62191b94a5aaa226d46ca2c4'), ObjectId('62191b94a5aaa226d46ca2c5'), ObjectId('62191b94a5aaa226d46ca2c6'), ObjectId('62191b94a5aaa226d46ca2c7'), ObjectId('62191b94a5aaa226d46ca2c8'), ObjectId('62191b94a5aaa226d46ca2c9'), ObjectId('62191b94a5aaa226d46ca2ca'), ObjectId('62191b94a5aaa226d46ca2cb'), ObjectId('62191b94a5aaa226d46ca2cc'), ObjectId('62191b94a5aaa226d46ca2cd'), ObjectId('62191b94a5aaa226d46ca2ce'), ObjectId('62191b94a5aaa226d46ca2cf'), ObjectId('62191b94a5aaa226d46ca2d0'), ObjectId('62191b94a5aaa226d46ca2d1'), ObjectId('62191b94a5aaa226d46ca2d2'), ObjectId('62191b94a5aaa226d46ca2d3'), ObjectId('62191b94a5aaa226d46ca2d4'), ObjectId('62191b94a5aaa226d46ca2d5'), ObjectId('62191b94a5aaa226d46ca2d6'), ObjectId('62191b94a5aaa226d46ca2d7'), ObjectId('62191b94a5aaa226d46ca2d8'), ObjectId('62191b94a5aaa226d46ca2d9'), ObjectId('62191b94a5aaa226d46ca2da'), ObjectId('62191b94a5aaa226d46ca2db'), ObjectId('62191b94a5aaa226d46ca2dc')].
+2022-02-26 00:31:34,599 INFO Deletion of document Completed at: [ObjectId('6219220a2d1fa2a0c577a79c')].
+2022-02-26 00:32:30,418 INFO Found Document/Documents at: [].
+2022-02-26 00:34:04,289 INFO Collection :CN_Data is created.
+2022-02-26 00:34:58,876 INFO Database :CarbonNanotube is created.
+2022-02-26 00:35:01,174 INFO Collection :CN_Data is created.
+2022-02-26 00:35:54,610 INFO Collection :CN_Data is dropped.
+2022-02-26 00:39:41,844 ERROR user is not allowed to do action [dropDatabase] on [CarbonNanotube.], full error: {'ok': 0, 'errmsg': 'user is not allowed to do action [dropDatabase] on [CarbonNanotube.]', 'code': 8000, 'codeName': 'AtlasError'}
