@@ -12,7 +12,7 @@
     4.4 find operation
     4.5 filter
 
-## code evalution
+## Code evalution
 1. Modular coding
 2. Execption handling
 3. Proper logging
