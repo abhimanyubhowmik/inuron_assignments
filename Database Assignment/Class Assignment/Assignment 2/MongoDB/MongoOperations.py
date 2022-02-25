@@ -135,6 +135,7 @@ class documentOps:
             logging.error(exp)
 
     def DeleteDoc(self, searchField: str, searchValue) -> None:
+        """Find document/documents by field value and Delete."""
         try:
             #Finding Object ID to Delete Documents
             search_dict = {searchField:searchValue}
@@ -159,7 +160,10 @@ class documentQuery:
         self.collection = collection
 
     def FindDoc(self, searchField: str = None, searchValue = None):
+        """Find document/documents by field value.
+        If field value is not given find all documents of the given collection."""
         if searchField == None or searchValue == None:
+            #Finding all Documents
             try:
                 search_obj = self.collection.find()
                 logging.info('Found all Documents of Collection: {coll}'.format(coll = self.collection.name))
@@ -167,22 +171,22 @@ class documentQuery:
             
             except Exception as exp:
                 logging.error(exp)
-    
-        try:
-            #Finding Object ID
-            search_dict = {searchField:searchValue}
-            search_obj = self.collection.find(search_dict)
-            data = []
-            for i in search_obj:
-                data.append(i)
-            id_list = []
-            for j in data:
-                id_list.append(j['_id'])
-            #Deteting Documents
-            doc = self.collection.find(search_dict)
-            logging.info('Found Document/Documents at: {_id}.'.format(_id = id_list))
-            return doc
+        else:
+            #Finding specific Documents using field values 
+            try:
+                #Finding Document and Object ID
+                search_dict = {searchField:searchValue}
+                search_obj = self.collection.find(search_dict)
+                data = []
+                for i in search_obj:
+                    data.append(i)
+                id_list = []
+                for j in data:
+                    id_list.append(j['_id'])
 
-        except Exception as exp:
-            logging.error(exp)
+                logging.info('Found Document/Documents at: {_id}.'.format(_id = id_list))
+                return search_obj
+
+            except Exception as exp:
+                logging.error(exp)
  
