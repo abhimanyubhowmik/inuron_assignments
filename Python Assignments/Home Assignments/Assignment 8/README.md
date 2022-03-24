@@ -1,3 +1,5 @@
+# Assignment - 7
+
 ### 1. Given a sentence as txt, return True if any two adjacent words have this property: One word ends with a vowel, while the word immediately after begins with a vowel (a e i o u).
 
 #### Examples
