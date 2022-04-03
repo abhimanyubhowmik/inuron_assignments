@@ -41,7 +41,7 @@ class Database:
         try:
             self.cursor.execute('use {db}'.format(db=databaseName))
             self.cursor.execute('show tables')
-            return self.cursor.fetchall()
+            print(self.cursor.fetchall())
         except Exception as exp:
             logging.error(exp)
 

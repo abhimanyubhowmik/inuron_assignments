@@ -1,0 +1,124 @@
+2022-04-03 11:48:21,322 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 11:49:53,642 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 11:50:27,563 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 12:05:46,408 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 12:06:48,704 ERROR Exception on /connect [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/abhimanyubhowmik/Documents/Python/inuron_assignments/API Assignment/Assignment 1/MySQL_API.py", line 9, in connect
+    host = request.json('host')
+TypeError: 'dict' object is not callable
+2022-04-03 12:06:48,719 INFO 127.0.0.1 - - [03/Apr/2022 12:06:48] "[35m[1mPOST /connect HTTP/1.1[0m" 500 -
+2022-04-03 12:16:36,546 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 12:16:50,759 ERROR Exception on /connect [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/abhimanyubhowmik/Documents/Python/inuron_assignments/API Assignment/Assignment 1/MySQL_API.py", line 9, in connect
+    host = request.json('host')
+TypeError: 'dict' object is not callable
+2022-04-03 12:16:50,766 INFO 127.0.0.1 - - [03/Apr/2022 12:16:50] "[35m[1mPOST /connect HTTP/1.1[0m" 500 -
+2022-04-03 13:03:52,436 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 13:04:46,005 ERROR Exception on /connect/get_db [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/abhimanyubhowmik/Documents/Python/inuron_assignments/API Assignment/Assignment 1/MySQL_API.py", line 22, in get_db
+    host = request.json('host')
+TypeError: 'dict' object is not callable
+2022-04-03 13:04:46,017 INFO 127.0.0.1 - - [03/Apr/2022 13:04:46] "[35m[1mPOST /connect/get_db HTTP/1.1[0m" 500 -
+2022-04-03 13:04:49,693 ERROR Exception on /connect/get_db [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/abhimanyubhowmik/Documents/Python/inuron_assignments/API Assignment/Assignment 1/MySQL_API.py", line 22, in get_db
+    host = request.json('host')
+TypeError: 'dict' object is not callable
+2022-04-03 13:04:49,696 INFO 127.0.0.1 - - [03/Apr/2022 13:04:49] "[35m[1mPOST /connect/get_db HTTP/1.1[0m" 500 -
+2022-04-03 13:08:31,049 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 13:08:38,806 ERROR Authentication plugin 'caching_sha2_password' is not supported
+2022-04-03 13:08:38,806 ERROR 'NoneType' object has no attribute 'execute'
+2022-04-03 13:08:38,806 ERROR Exception on /connect/get_db [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/abhimanyubhowmik/Documents/Python/inuron_assignments/API Assignment/Assignment 1/MySQL_API.py", line 32, in get_db
+    return jsonify(str(list(result)))
+TypeError: 'NoneType' object is not iterable
+2022-04-03 13:08:38,820 INFO 127.0.0.1 - - [03/Apr/2022 13:08:38] "[35m[1mPOST /connect/get_db HTTP/1.1[0m" 500 -
+2022-04-03 13:09:40,189 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 13:09:52,441 ERROR Authentication plugin 'caching_sha2_password' is not supported
+2022-04-03 13:09:52,442 ERROR 'NoneType' object has no attribute 'execute'
+2022-04-03 13:09:52,442 INFO 127.0.0.1 - - [03/Apr/2022 13:09:52] "[37mPOST /connect/get_db HTTP/1.1[0m" 200 -
+2022-04-03 13:10:53,109 ERROR Authentication plugin 'caching_sha2_password' is not supported
+2022-04-03 13:10:53,110 ERROR 'NoneType' object has no attribute 'execute'
+2022-04-03 13:10:53,111 INFO 127.0.0.1 - - [03/Apr/2022 13:10:53] "[37mPOST /connect/get_tables HTTP/1.1[0m" 200 -
+2022-04-03 13:13:22,295 ERROR Authentication plugin 'caching_sha2_password' is not supported
+2022-04-03 13:13:22,297 ERROR 'NoneType' object has no attribute 'execute'
+2022-04-03 13:13:22,297 INFO 127.0.0.1 - - [03/Apr/2022 13:13:22] "[37mPOST /connect/get_tables HTTP/1.1[0m" 200 -
+2022-04-03 13:13:32,552 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 13:13:36,360 ERROR Authentication plugin 'caching_sha2_password' is not supported
+2022-04-03 13:13:36,361 ERROR 'NoneType' object has no attribute 'execute'
+2022-04-03 13:13:36,362 INFO 127.0.0.1 - - [03/Apr/2022 13:13:36] "[37mPOST /connect/get_tables HTTP/1.1[0m" 200 -
+2022-04-03 13:53:35,075 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 13:53:50,929 ERROR Authentication plugin 'caching_sha2_password' is not supported
+2022-04-03 13:53:50,930 ERROR 'NoneType' object has no attribute 'execute'
+2022-04-03 13:53:50,932 INFO 127.0.0.1 - - [03/Apr/2022 13:53:50] "[37mPOST /connect/get_tables HTTP/1.1[0m" 200 -
+2022-04-03 13:57:05,095 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 13:57:08,736 ERROR Authentication plugin 'caching_sha2_password' is not supported
+2022-04-03 13:57:08,736 ERROR 'NoneType' object has no attribute 'execute'
+2022-04-03 13:57:08,737 INFO 127.0.0.1 - - [03/Apr/2022 13:57:08] "[37mPOST /connect/get_tables HTTP/1.1[0m" 200 -
+2022-04-03 13:57:28,235 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 13:57:38,450 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 14:35:30,633 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
