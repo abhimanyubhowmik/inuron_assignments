@@ -122,3 +122,21 @@ TypeError: 'NoneType' object is not iterable
 2022-04-03 13:57:28,235 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 2022-04-03 13:57:38,450 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 2022-04-03 14:35:30,633 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 14:38:50,532 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 14:39:00,390 ERROR Authentication plugin 'caching_sha2_password' is not supported
+2022-04-03 14:39:00,390 ERROR 'NoneType' object has no attribute 'execute'
+2022-04-03 14:39:00,391 INFO 127.0.0.1 - - [03/Apr/2022 14:39:00] "[37mPOST /connect/get_tables HTTP/1.1[0m" 200 -
+2022-04-03 14:44:53,206 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 14:46:31,357 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 14:46:35,985 ERROR Authentication plugin 'caching_sha2_password' is not supported
+2022-04-03 14:46:35,985 ERROR 'NoneType' object has no attribute 'execute'
+2022-04-03 14:46:35,986 INFO 127.0.0.1 - - [03/Apr/2022 14:46:35] "[37mPOST /connect/get_tables HTTP/1.1[0m" 200 -
+2022-04-03 14:49:02,183 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 14:49:06,940 ERROR Authentication plugin 'caching_sha2_password' is not supported
+2022-04-03 14:49:06,941 ERROR 'NoneType' object has no attribute 'execute'
+2022-04-03 14:49:06,943 INFO 127.0.0.1 - - [03/Apr/2022 14:49:06] "[37mPOST /connect/get_tables HTTP/1.1[0m" 200 -
+2022-04-03 14:51:51,354 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-04-03 14:52:08,100 ERROR weakly-referenced object no longer exists
+2022-04-03 14:52:08,103 INFO 127.0.0.1 - - [03/Apr/2022 14:52:08] "[37mPOST /connect/get_tables HTTP/1.1[0m" 200 -
+2022-04-03 14:52:55,277 ERROR weakly-referenced object no longer exists
+2022-04-03 14:52:55,277 INFO 127.0.0.1 - - [03/Apr/2022 14:52:55] "[37mPOST /connect/get_db HTTP/1.1[0m" 200 -

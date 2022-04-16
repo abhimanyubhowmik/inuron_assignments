@@ -12,14 +12,14 @@ class Connection:
 
     def db(self):
         try:
-            db = conn.connect(host=self.host,user=self.user,passwd=self.passwd)
+            db = conn.connect(host=self.host,user=self.user,passwd=self.passwd,auth_plugin='mysql_native_password')
             return db
         except Exception as exp:
             logging.error(exp)
 
     def cursor(self):
         try:
-            db = conn.connect(host=self.host,user=self.user,passwd=self.passwd)
+            db = conn.connect(host=self.host,user=self.user,passwd=self.passwd,auth_plugin='mysql_native_password')
             cursor = db.cursor()
             return cursor
         except Exception as exp:
